@@ -12,4 +12,6 @@ from the dataset. All other nodes are considered unvisited.
 The lowest result is recorded.
 6. Iteratively execute step 1-5 until the dataset has been exhausted.
 
-The program will output the resulting cycles in json, however not prettified.
+The program will output the resulting (shortest) cycle in json, however not prettified.
+
+Change defines on rows 10 and 11 in greedy.cpp to the other dataset and corresponding ndjson file if desired.
